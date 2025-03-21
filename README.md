@@ -6,7 +6,7 @@ HTML5 , CSS3 , JS , Python , Django
 
 Installation 📦 To install Django Instagram , follow these steps:
 
-Clone this repository: 'https://github.com/bennyyoyo/Django-Instragram.git.git'
+Clone this repository: '[https://github.com/bennyyoyo/Django-Instragram.git.git](https://github.com/bennyyoyo/instagram-_clone/tree/main/instagram_clone)'
 
 Navigate to the project directory: cd Django-Instragram 3 . Create a virtual environment: python3 -m venv env
 

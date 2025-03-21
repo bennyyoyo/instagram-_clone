@@ -1,0 +1,11 @@
+<h1>Instagram Clone</h1>
+<a href="{% url 'create_post' %}">Create Post</a>
+{% for post in posts %}
+    <div>
+        <img src="{{ post.image.url }}" alt="{{ post.caption }}">
+        <p>{{ post.caption }}</p>
+        <p>Posted by {{ post.author.username }}</p>
+        <a href="{% url 'like_post' post.id %}">Like</a>
+        <a href="{% url 'add_comment' post.id %}">Comment</a>
+    </div>
+{% endfor %}
